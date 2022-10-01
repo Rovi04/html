@@ -3,11 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>etiquetasHTML5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap" rel="stylesheet">
+    <style>
+        p{
+            color: blueviolet;
+            font-size: 20px;
+            font-family: cursive;
+            background-color: rgb(255, 251, 196);
+            padding: 0cm;
+            margin: 2cm;
+            width: 15cm;
+            height: 5cm;
+            border-style: solid;
+            border-width: 2px;
+            border-color: blue;
+        }
+        .p-centrado{
+            background-color: aqua;
+            color: brown;
+         }
+        #p-red{
+            background-color: crimson;
+            color: black;
+        }
+        #h-cabeza{
+            color: deeppink;
+            font-weight: 700;
+        }
+        .h-minicab{
+            color: coral;
+            font-family: 'Passions Conflict', cursive;
+            font-size: 40px;
+        }
+        main{
+            display: inline-block;
+            width: 700px;
+        }
+        aside{
+            display: inline-block;
+            width: 300px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Encabezado nivel 1</h1>
+        <h1 id="h-cabeza">Encabezado nivel 1</h1>
         <nav>
             <a href="enlace"></a>
             <a href="enlace"></a>
@@ -17,9 +60,10 @@
         </nav>
     </header>
     <main>
-        <h2>Encabezado nivel 2</h2>
+        <h2 class="h-minicab">Encabezado nivel 2</h2>
         <p><strong>parrafo 1</strong></p>
-        <p>parrafo 2</p>
+        <p class="p-centrado">parrafo 2</p>
+        <p id="p-red">parrafo 3</p>
     </main>
     <aside>
         <form action="Listado">
